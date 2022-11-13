@@ -45,7 +45,9 @@ This files contents are outlined below >>>>
 ==================================================*/
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'ostrich-regular', sans-serif;
+	src: url('./font/ostrich-regular.tff') format('truetype');
+	/* font-family: 'ostrich-regular', sans-serif; */
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
@@ -67,7 +69,8 @@ p {
 	font-size: 15px;
 	color: #3a505f;
 	line-height: 26px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'ostrich-regular', sans-serif;
+	src: url('./font/ostrich-regular.tff') format('truetype');
 	margin: 0;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -117,6 +120,10 @@ a:hover {
 	color: inherit;
 	text-decoration: none;
 	color: inherit
+}
+.icons img .card-img-top{
+	width:"150px";
+	height:"auto";
 }
 
 input:focus,
